@@ -10,9 +10,10 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### prepare for and deploy
 ```
 npm run build
+firebase deploy
 ```
 
 ### Run your tests
@@ -24,6 +25,8 @@ npm run test
 ```
 npm run lint
 ```
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

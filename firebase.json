@@ -1,0 +1,12 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "dist",
+    "scripts": {
+      "start": "node ./node_modules/webpack/bin/webpack.js"
+    }
+  }
+}
